@@ -9,6 +9,7 @@ import {
 } from '@remix-run/react';
 import { ErrorComponent } from '~/components/error-component/error-component';
 import '~/styles/index.scss';
+import MyVisxComponent from '../src/components/my-visx-component/my-visx-component';
 
 export function Layout({ children }: { children: React.ReactNode }) {
     return (

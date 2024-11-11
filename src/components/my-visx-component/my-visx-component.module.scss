@@ -1,0 +1,47 @@
+@import '../../../src/styles/theme.module.scss';
+
+.btn {
+  margin: 0;
+  text-align: center;
+  border: none;
+  background: #2f2f2f;
+  color: #888;
+  padding: 0 4px;
+  border-top: 1px solid #0a0a0a;
+}
+.btn-lg {
+  font-size: 12px;
+  line-height: 1;
+  padding: 4px;
+}
+.btn-zoom {
+  width: 26px;
+  font-size: 22px;
+}
+.btn-bottom {
+  margin-bottom: 1rem;
+}
+.description {
+  font-size: 12px;
+  margin-right: 0.25rem;
+}
+.controls {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.mini-map {
+  position: absolute;
+  bottom: 25px;
+  right: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.relative {
+  position: relative;
+}
+

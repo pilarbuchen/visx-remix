@@ -15,7 +15,11 @@
     "@remix-run/node": "^2.13.1",
     "@remix-run/react": "^2.13.1",
     "@types/node": "^22.9.0",
+    "@visx/visx": "3.12.0",
+    "@visx/zoom": "^3.12.0",
     "classnames": "^2.5.1",
+    "d3": "^7.9.0",
+    "d3-scale-chromatic": "^3.1.0",
     "isbot": "^5.1.17",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
@@ -23,6 +27,7 @@
   "devDependencies": {
     "@remix-run/dev": "^2.13.1",
     "@remix-run/testing": "^2.13.1",
+    "@types/d3-scale-chromatic": "^3.0.3",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@typescript-eslint/eslint-plugin": "^7.13.1",
